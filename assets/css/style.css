@@ -1,0 +1,162 @@
+.name {
+    overflow: hidden;
+    background-color: teal;
+    text-align: left;
+    color: white;
+    width: 20%;
+    float: left;
+}
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color: teal;
+    padding: 20px 10px;
+    width: 33%;
+}
+
+.dead {
+    padding: 20px 10px;
+    float: left;
+    width: 16.65%;
+}
+
+header {
+    box-shadow: 1px 1px #cccccc;
+    overflow: hidden;
+    background-color:#ffffff;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666666;
+    overflow: hidden;
+    margin-top: 60px;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.start {
+    width: 900px;
+    padding: 0px 20px;
+    color: teal;
+    border-bottom: 1px solid grey;
+    margin: auto;
+    text-align: left;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 2px;
+    color: teal;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+.message {
+    padding: 12px 20px 300px;
+    margin: 6px;
+    width: 90.5%;
+}
+
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 6px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    background-image: url("../images/tuscany.jpg");
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.mainContent {
+    padding: 5px 5px;
+    box-shadow: 1px 1px 1px 1px #dddddd;
+    margin: auto;
+    width: 960px;
+    background-color: #ffffff   
+}
+
+.me {
+    float: left;
+    width: 45%;
+    padding: 10px 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#crickett {
+    padding: 15px 15px;
+    width: 300px;
+    height: 200px;
+}
+
+#karatekid {
+    padding: 15px 15px;
+    width: 300px;
+    height: 200px;
+}
+
+#strike {
+    padding: 15px 15px;
+    width: 300px;
+    height: 200px;
+}
+
+#sushi {
+    padding: 15px 15px;
+    width: 300px;
+    height: 200px;
+}
+
+#weird {
+    padding: 15px 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.port {
+    position: relative;
+}
+
+@media screen and (max-width: 980px) {
+    .mainContent {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainContent {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mainContent {
+        float: left;
+    }
+}

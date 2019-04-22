@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-bootstrap repository 2
+# Basic-Portfolio
+Homework 1
